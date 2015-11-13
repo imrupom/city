@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/global_relative"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:background="#000000"
+    >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:id="@+id/scrollView">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="600dp"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/city" >
+
+        </ImageView>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/logo"
+        android:alpha="0.4"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageButton"
+        android:src="@drawable/play"
+        android:alpha=".5"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_traffic_update"
+            android:icon="@drawable/ic_launcher"
+            android:title="Traffic Update" />
+        <item
+            android:id="@+id/nav_your_places"
+            android:icon="@drawable/ic_launcher"
+            android:title="Your Places" />
+        <item
+            android:id="@+id/nav_best_route"
+            android:icon="@drawable/ic_launcher"
+            android:title="Best Route" />
+        <item
+            android:id="@+id/nav_fnf"
+            android:icon="@drawable/ic_launcher"
+            android:title="F n F" />
+        <item
+            android:id="@+id/nav_top_restaurant"
+            android:icon="@drawable/ic_launcher"
+            android:title="Top Restaurant" />
+        <item
+            android:id="@+id/nav_bank_atm_locator"
+            android:icon="@drawable/ic_launcher"
+            android:title="Bank/ATM Locator" />
+        <item
+            android:id="@+id/nav_dhaka_police_stations"
+            android:icon="@drawable/ic_launcher"
+            android:title="Dhaka Police Stations" />
+        <item
+            android:id="@+id/nav_cng_stations"
+            android:icon="@drawable/ic_launcher"
+            android:title="CNG Stations" />
+        <item
+            android:id="@+id/nav_important_phones"
+            android:icon="@drawable/ic_launcher"
+            android:title="Important Phones" />
+    </group>
+
+    <item android:title="More">
+        <menu>
+            <item
+                android:id="@+id/nav_sub_menu_your_profile"
+                android:icon="@drawable/ic_launcher"
+                android:title="Your Profile" />
+            <item
+                android:id="@+id/nav_sub_menu_feedback"
+                android:icon="@drawable/ic_launcher"
+                android:title="Feedback" />
+            <item
+                android:id="@+id/nav_sub_menu_subscriptions"
+                android:icon="@drawable/ic_launcher"
+                android:title="Subscription" />
+            <item
+                android:id="@+id/nav_sub_menu_user_guide"
+                android:icon="@drawable/ic_launcher"
+                android:title="User Guide" />
+            <item
+                android:id="@+id/nav_sub_menu_about_us"
+                android:icon="@drawable/ic_launcher"
+                android:title="About Us" />
+        </menu>
+    </item>
+
+</menu>
