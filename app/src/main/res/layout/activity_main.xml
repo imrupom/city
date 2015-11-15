@@ -12,7 +12,7 @@
         android:layout_height="match_parent"
         android:paddingTop="?attr/actionBarSize"
         android:scrollbars="vertical" />
-    <include layout="@layout/include_list_viewpager"/>
+    <include layout="@layout/include"/>
 
 
     <android.support.design.widget.NavigationView
