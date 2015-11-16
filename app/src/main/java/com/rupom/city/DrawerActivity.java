@@ -122,6 +122,11 @@ public class DrawerActivity extends AppCompatActivity {
             case android.R.id.home:
                 mDrawerLayout.openDrawer(GravityCompat.START);
                 return true;
+            case R.id.action_search:
+                Toast.makeText(this, "Search clicked", Toast.LENGTH_SHORT).show();
+                return true;
+            case R.id.action_flag:
+                Toast.makeText(getApplicationContext(),"Flag Clicked", Toast.LENGTH_SHORT).show();
         }
         return super.onOptionsItemSelected(item);
     }
